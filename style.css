@@ -1,0 +1,122 @@
+body{
+    font-family: 'Lucida Grande', sans-serif;
+    background: #474747;
+    margin: 0px;
+}
+
+.header{
+    background: #1C1C1C;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.header img{
+    width: auto;
+    height: 120px;
+}
+
+.nav{
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    background:#323232;
+    padding: 12px;
+}
+
+#top-nav{
+    grid-column: 2 / 6;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    /* font-weight: 600; */
+    font-family: Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white
+}
+
+a:hover, .right-sidebar a:hover{
+    color:tomato;
+}
+
+.main{
+    background: #474747;
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+    /* grid-gap: 15px; */
+}
+
+.article-wrapper, .right-sidebar, .snippet{
+    background: rgba(255, 255, 255, 0.95);
+    margin: 15px;
+    /* border: 1px solid #1C1C1C; */
+    box-shadow: 2px 2px 4px 2px darkgray;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.article-wrapper:hover, .right-sidebar:hover, .snippet:hover{
+    background: white;
+}
+
+.article-content{
+    padding-bottom: 12px;
+}
+
+.article img{
+    width: 25%;
+    height: auto;
+    object-fit: cover;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px
+}
+
+.right-sidebar a{
+    color: black;
+}
+
+.sidebar-panes{
+    background: beige;
+    margin: 10px 0px;
+    margin-bottom: 20px;
+    /* border: 1px solid #1C1C1C; */
+    box-shadow: 2px 2px 4px 2px darkgray;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.footer{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(10px auto);
+    background: #474747;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.snippet{
+    text-align: center;
+}
+
+.snippet img{
+    width: 95%;
+    margin: 5px 5px;
+    text-align: center;
+    object-fit: contain;
+
+}
+
+.snippet p{
+    text-align: left;
+}
+h2{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 2.5em;
+}
