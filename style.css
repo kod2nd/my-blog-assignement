@@ -48,6 +48,7 @@ a:hover, .right-sidebar a:hover{
     width: 80%;
     margin: 0 auto;
     text-align: justify;
+    padding-top: 10px;
     /* grid-gap: 15px; */
 }
 
